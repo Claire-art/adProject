@@ -43,9 +43,9 @@
 #### 레퍼런스
 
 1. RC카 무선조종
- - RC카 무선조종 (블루투스) : https://github.com/namsewon1019/Arduino
+     - RC카 무선조종 (블루투스) : https://github.com/namsewon1019/Arduino
 
 2. 카메라 오픈소스 (와이파이나 블루투스)
- - 카메라 라이브러리 : https://m.blog.naver.com/roboholic84/220821919602 (구입해야함)
+     - 카메라 라이브러리 : https://m.blog.naver.com/roboholic84/220821919602 (구입해야함)
 
 3. 초음파 센서에서 일정거리안으로 움직임이 관찰될시 블루투스를 통해 휴대폰에 알려주는 거(근데 얘는 우리가 짜야할듯)
