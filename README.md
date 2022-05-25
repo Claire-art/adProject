@@ -44,6 +44,8 @@
 
 1. RC카 무선조종
      - RC카 무선조종 (블루투스) : https://github.com/namsewon1019/Arduino
+     - RC카 무선조종 + 아두이노 블루투스 컨트롤러(앱) : https://deneb21.tistory.com/311
+
 
 2. 카메라 오픈소스 (와이파이나 블루투스)
      - 카메라 라이브러리 : https://m.blog.naver.com/roboholic84/220821919602 (구입해야함)
