@@ -50,6 +50,7 @@
 2. 카메라 오픈소스 (와이파이나 블루투스)
      - 카메라 라이브러리 : https://m.blog.naver.com/roboholic84/220821919602 (구입해야함)
      - https://www.youtube.com/watch?v=Dbq9oKptz0I
+     - https://makejarvis.tistory.com/36
 
 3. 초음파 센서에서 일정거리안으로 움직임이 관찰될시 블루투스를 통해 휴대폰에 알려주는 거(근데 얘는 우리가 짜야할듯)
      - 블루투스로 휴대폰에 알림 전송 : https://github.com/park1997/Arduino/blob/b14a8ec0dd94ff8faa5a281df7ec999ed2318b5f/README.md
