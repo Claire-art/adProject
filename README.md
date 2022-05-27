@@ -54,3 +54,4 @@
 
 3. 초음파 센서에서 일정거리안으로 움직임이 관찰될시 블루투스를 통해 휴대폰에 알려주는 거(근데 얘는 우리가 짜야할듯)
      - 블루투스로 휴대폰에 알림 전송 : https://github.com/park1997/Arduino/blob/b14a8ec0dd94ff8faa5a281df7ec999ed2318b5f/README.md
+     - https://bota.tistory.com/m/1702
