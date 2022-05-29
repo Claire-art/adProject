@@ -57,6 +57,7 @@
      - https://bota.tistory.com/m/1702 (와이파이 보드 사용하기. 가장 적합함)
      - https://popcorn16.tistory.com/183 (블루투스 양방향 전송 문제 해결)
      - http://wiki.vctec.co.kr/opensource/arduino/movementdetection (이메일로 보내기)
+     - https://diyver.tistory.com/152 (와이파이 보드 사용, 푸쉬불렛)
 
 4. 인체감지 센서 (HC-SR501)
      - https://m.blog.naver.com/boilmint7/221907706028
