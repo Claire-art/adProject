@@ -35,46 +35,33 @@ void setup(){
   motor_R.run(RELEASE);
 }
 
-
 void loop(){
  
   if(bluetooth.available()){         // 블루투스 명령 수신
-     rec_data = bluetooth.read();
-     Serial.write(rec_data);
-     rec_chk = true;
+    rec_data = bluetooth.read();
+    Serial.write(rec_data);
+    rec_chk = true;
   }  
 
-  if(rec_data == 'g'){  // 전진, go
-     motor_L.run(FORWARD);  motor_R.run(FORWARD);        
+  if(rec_data == 'F'){  // 전진, forward
+    motor_L.run(FORWARD);  
+    motor_R.run(FORWARD);        
   } 
-  else if(rec_data == 'b'){ // 후진, back
-     motor_L.run(BACKWARD);  motor_R.run(BACKWARD);    
+  else if(rec_data == 'B'){ // 후진, back
+    motor_L.run(BACKWARD);  
+    motor_R.run(BACKWARD);    
   }
-  else if(rec_data == 'l'){ // 좌회전, Go Left
-   motor_L.run(RELEASE);  motor_R.run(FORWARD);     
+  else if(rec_data == 'L'){ // 좌회전, Go Left
+    motor_L.run(RELEASE);  
+    motor_R.run(FORWARD);     
   }
-  else if(rec_data == 'r'){ // 우회전, Go Right
-    motor_L.run(FORWARD);  motor_R.run(RELEASE);                
-  }
-  else if(rec_data == 'q'){ // 제자리 회전, Left Rotation
-     motor_L.run(BACKWARD);   motor_R.run(FORWARD);      
-  }
-  else if(rec_data == 'w'){ // 제자리 회전, Right Rotation
-      motor_L.run(FORWARD);   motor_R.run(BACKWARD);    
+  else if(rec_data == 'R'){ // 우회전, Go Right
+    motor_L.run(FORWARD);  
+    motor_R.run(RELEASE);                
   }
   else if(rec_data == 's'){ // Stop 
-    motor_L.run(RELEASE);       motor_R.run(RELEASE);
-    } 
-
-    
-  if(rec_data == 'f' ){       // 정지
-    if(rec_chk == true){
-       for (i=250; i>=0; i=i-20) {
-          motor_L.setSpeed(i);  motor_R.setSpeed(i);  
-          delay(10);
-       }  
-       
-    }
+    motor_L.run(RELEASE);       
+    motor_R.run(RELEASE);
   }
-
+     
 }
