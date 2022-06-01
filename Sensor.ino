@@ -24,16 +24,7 @@ void loop() {
     Serial.println("후,..");                 //  아두이노 시리얼 모니터에 올라가는 메시지. 확인용.
   }
   
-  if (bluetooth.available()){
-    if (text == 'L') {
-    }
-    if (text == 'R') {
-    }
-    if (text == 'S') {
-    }
-    if (text == 'B') {
-    }
-  }
+
   
   delay(500);
 }
