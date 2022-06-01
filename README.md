@@ -52,12 +52,13 @@
      - https://www.youtube.com/watch?v=Dbq9oKptz0I
      - https://makejarvis.tistory.com/36
 
-3. 초음파 센서에서 일정거리안으로 움직임이 관찰될시 블루투스를 통해 휴대폰에 알려주는 거(근데 얘는 우리가 짜야할듯)
+3. 초음파 센서에서 일정거리안으로 움직임이 관찰될시 블루투스를 통해 휴대폰에 알려주는 거(근데 얘는 우리가 짜야할듯)  --> 적외선으로 변경
      - 블루투스로 휴대폰에 알림 전송 : https://github.com/park1997/Arduino/blob/b14a8ec0dd94ff8faa5a281df7ec999ed2318b5f/README.md
      - https://bota.tistory.com/m/1702 (와이파이 보드 사용하기. 가장 적합함)
      - https://popcorn16.tistory.com/183 (블루투스 양방향 전송 문제 해결)
      - http://wiki.vctec.co.kr/opensource/arduino/movementdetection (이메일로 보내기)
      - https://diyver.tistory.com/152 (와이파이 보드 사용, 푸쉬불렛)
+     - https://www.youtube.com/watch?v=5y96KmbgKDs&t=372s
 
 4. 인체감지 센서 (HC-SR501)
      - https://m.blog.naver.com/boilmint7/221907706028
